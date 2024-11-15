@@ -3,9 +3,12 @@
     margin-left: 15%;
     margin-top: 3%;
     background-color: white;
-    border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
     padding-bottom: 38%;
-    height: 115px;
+    height: 600px;
 }
 
 .listeTete{
@@ -14,9 +17,8 @@
     vertical-align: baseline;
     align-items: center;
     list-style-position: inside;
-    
-
 }
+
 .tete{
     padding-top: 10px;
     display: flex;
@@ -45,13 +47,15 @@ margin-top: 5%;
 margin-right: 6%;
 margin-left: 5%;
 border-radius: 10px;
-height: 250px;
+height: 320px;
 }
 
 
 .listUnique{
     font-size: 35px;
     font-weight: bold;
+    width: 50px;
+    
 }
 .colorUnique{
 background-color: orange;
@@ -66,17 +70,63 @@ transform: rotate(-10deg);
 }
 
 .imageDeMort{
-width: 20px;
-height: 20px;
-
-
+   width: 20px;
+   height: 20px;
 }
 
 .shopNow{
-    margin-left: 80px;
+    margin-left: 50px;
     background-color: black;
     color: white;
     padding: 10px;
     width: 100px ;
     border-radius: 5px;
+}
+
+.innovationFashion{
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+.imgFashion{
+    display: flex;
+position: absolute;
+margin-left: 290px;
+margin-top: px;
+object-position: 50px, 50px;
+width: 500px;
+transform: rotate(180deg);
+
+}
+
+.listMarque{
+    background-color:  #EBD96B;
+   display: flex;
+   justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.marque{
+    width: 40px;
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 100px ;
+    padding-bottom: 15px;
+}
+
+.titreNewArrivals{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 80px;
+}
+
+.imgNewArrivals{
+    width: 240px;
+    height: 350px;
+    padding-top: 20px;
+    padding-left: 50px;
+    border-radius: 10%;
+    margin-left: 35px;
+   
 }
