@@ -36,13 +36,18 @@ function FashionVictim(){
         <h1 className="titreFashion"> fashion</h1>
        
       {/* Sa c'est a liste du haut de la page  */}
-      <a href="">
+      {/* les lien sont a atribué en fonction de si on reussi a faire les page ou non  */}
+      <a href="#">
           <ol>Catalogue</ol></a>
-          <ol>Fashion</ol>  
-          <ol>Favourite</ol>
-          <ol>LifeStyle</ol>
+          <a href="#">
+          <ol>Fashion</ol> </a> 
+          <a href="#">
+          <ol>Favourite</ol></a>
+          <a href="#">
+          <ol>LifeStyle</ol></a>
           {/* A la base c'etait un ol Mais je voyais plus sa comme un button du coup je l'ai mis en button  */}
-          <button className="signUp">Sign-Up</button>
+          <a href="#">
+          <button className="signUp">Sign-Up</button></a>
        </ul>
 </header>
 
@@ -64,13 +69,19 @@ function FashionVictim(){
 </div>
 {/* Les image de marque, la div permet la couleur et lalignement */}
        <div className='listMarque'>
-          <img className='marque' src={HM} alt=''/>
-          <img className='marque' src={Obey} alt=''/>
-          <img className='marque' src={Shopify} alt=''/>
-          <img className='marque' src={lacoste} alt=''/>
-          <img className='marque' src={Levis} alt=''/>
-          <img className='marque' src={Amazone} alt=''/>
-       </div>
+       <a href="https://www2.hm.com/fr_fr/index.html">
+          <img className='marque' src={HM} alt=''/></a>
+          <a href="https://obeyclothing.eu/">
+          <img className='marque' src={Obey} alt=''/></a>
+          <a href="https://www.shopify.com/fr/essai-gratuit?term=shopify&adid=589001292160&campaignid=15439903106&branded_enterprise=1&BOID=brand&utm_medium=cpc&utm_source=google&gad_source=1&gclid=Cj0KCQiA_9u5BhCUARIsABbMSPthjsQJ6Zq0rQXGoeiTJ0mrryIXJA-pY4lVVXJM_R_u0pbHWR4x3pMaAmtaEALw_wcB&cmadid=516586848;cmadvertiserid=10730501;cmcampaignid=26990768;cmplacementid=324286430;cmcreativeid=163722649;cmsiteid=5500011">
+          <img className='marque' src={Shopify} alt=''/></a>
+          <a href="https://www.lacoste.com/fr/homme.html?wiz_content=649543756281&gad_source=1&gclid=Cj0KCQiA_9u5BhCUARIsABbMSPtkA_S9uJN64a1b2SNH-vyA6VxMuZlUsPZ4ZIuGE8DUWkCI_GPMsFEaAqLWEALw_wcB&wiz_source=google&wiz_campaign=55114290&wiz_term=lacoste&wiz_medium=cpc">
+          <img className='marque' src={lacoste} alt=''/></a>
+          <a href="https://www.levi.com/BE/fr_BE/?camp=PaidSearch_DR_AO_LV_BP_B_BE_ROAS_GLE_fr_Brand-Pure-Core&gad_source=1&gclid=Cj0KCQiA_9u5BhCUARIsABbMSPtveKPducCZphtTQd_Q6pEz1-PvkaFoSRnBhA3nntBkHyDEj86zVUAaArH6EALw_wcB&gclsrc=aw.ds">
+          <img className='marque' src={Levis} alt=''/></a>
+          <a href="https://www.amazon.fr/?&tag=hydraamazon05-21&ref=pd_sl_e0e6pyak8_e&adgrpid=154637622682&hvpone=&hvptwo=&hvadid=683560492208&hvpos=&hvnetw=g&hvrand=11903061701033311757&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9055729&hvtargid=kwd-29089120&hydadcr=&gad_source=1">
+          <img className='marque' src={Amazone} alt=''/></a>
+       </div> 
 
 {/* La partie basse de la "page" */}
 <p className='titreNewArrivals'> New arrivals</p>

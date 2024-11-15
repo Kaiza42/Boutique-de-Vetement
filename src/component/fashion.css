@@ -10,6 +10,10 @@
     padding-bottom: 38%;
     height: 600px;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 .listeTete{
     margin-left: 0%;
@@ -17,6 +21,7 @@
     vertical-align: baseline;
     align-items: center;
     list-style-position: inside;
+    
 }
 
 .tete{
@@ -113,6 +118,7 @@ transform: rotate(180deg);
     padding-top: 15px;
     padding-left: 100px ;
     padding-bottom: 15px;
+    margin-right: 40px;
 }
 
 .titreNewArrivals{
@@ -128,5 +134,4 @@ transform: rotate(180deg);
     padding-left: 50px;
     border-radius: 10%;
     margin-left: 35px;
-   
 }
