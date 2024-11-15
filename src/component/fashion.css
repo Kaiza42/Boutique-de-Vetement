@@ -1,0 +1,82 @@
+.Fashion{
+    margin-right: 30%;
+    margin-left: 15%;
+    margin-top: 3%;
+    background-color: white;
+    border-radius: 15px;
+    padding-bottom: 38%;
+    height: 115px;
+}
+
+.listeTete{
+    margin-left: 0%;
+    display: flex;
+    vertical-align: baseline;
+    align-items: center;
+    list-style-position: inside;
+    
+
+}
+.tete{
+    padding-top: 10px;
+    display: flex;
+    vertical-align: baseline;
+}
+
+.titreFashion {
+    padding-left: 50px;
+    font-weight: 900;
+    padding-left: 5px;
+    padding-right: 280px;
+}
+
+.signUp{
+    margin-left: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 80px ;
+    border-radius: 5px;
+}
+
+.corpsFashion{
+background-color: #F4F6F5;
+margin-top: 5%;
+margin-right: 6%;
+margin-left: 5%;
+border-radius: 10px;
+height: 250px;
+}
+
+
+.listUnique{
+    font-size: 35px;
+    font-weight: bold;
+}
+.colorUnique{
+background-color: orange;
+width: 160px;
+transform: rotate(-10deg);
+}
+
+.colorLet{
+    background-color: white;
+    width: 160px;
+    transform: rotate(10deg);
+}
+
+.imageDeMort{
+width: 20px;
+height: 20px;
+
+
+}
+
+.shopNow{
+    margin-left: 80px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 100px ;
+    border-radius: 5px;
+}
