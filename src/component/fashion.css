@@ -8,7 +8,7 @@
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
     padding-bottom: 38%;
-    height: 600px;
+    height: 350px;
 }
 a {
     text-decoration: none;
@@ -34,7 +34,7 @@ a {
     padding-left: 50px;
     font-weight: 900;
     padding-left: 5px;
-    padding-right: 180px;
+    padding-right: 280px;
 }
 
 .signUp{
@@ -126,12 +126,73 @@ transform: rotate(180deg);
     font-weight: bolder;
     margin-left: 80px;
 }
-
-.imgNewArrivals{
+.imgNewArrivalsUn{
     width: 200px;
     height: 350px;
     padding-top: 20px;
-    padding-left: 30px;
     border-radius: 10%;
-    margin-left: 35px;
+    margin-left: 60px;
+}
+
+
+.imgNewArrivalsDeux{
+    width: 200px;
+    height: 350px;
+    padding-top: 20px;
+    padding-left: 0px;
+    border-radius: 10%;
+    margin-left: 140px;
+}
+.imgNewArrivalsTrois{
+    width: 200px;
+    height: 350px;
+    padding-top: 20px;
+    padding-left: 0px;
+    border-radius: 10%;
+    margin-left: 140px;
+}
+
+.alignementDesDiv{
+    display: flex; 
+  justify-content: space-between; 
+}
+
+.alignementTextNewArrivalsUn{
+    display: flex; 
+    flex-direction: column; 
+    
+    width: 200px;
+    margin-left: 70px;
+}
+p{
+    margin: 0%;
+    padding: 0%;
+}
+
+.fleche{
+    width: 20px; 
+    height: auto; 
+    margin-left: 160px;
+}
+.alignementTextNewArrivalsDeux{
+    display: flex; 
+    flex-direction: column; 
+    
+    width: 200px;
+    margin-right: 10px;
+}
+.alignementTextNewArrivalsTrois{
+    display: flex; 
+    flex-direction: column; 
+    
+    width: 200px;
+    margin-right: 90px;
+}
+
+.hoddies{
+font-weight: bold;
+}
+
+.ExploreNow{
+color: gray;
 }

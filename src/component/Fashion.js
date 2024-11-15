@@ -21,6 +21,8 @@ import PhotoGris from './asset/PhotoGris.png'
 import photoViolette from './asset/photoViolette.png'
 import PhotoBleu from './asset/PhotoBleu.png'
 
+import fleche from './asset/fleche.png'
+
 
 // la function qui permetra d'etre réutiliser pour une autre page 
 function FashionVictim(){
@@ -90,11 +92,40 @@ function FashionVictim(){
 <div>
   {/* Les image pour les "New Arrivals" */}
   
-<img className='imgNewArrivals' src={PhotoGris} alt=''/>
-<img className='imgNewArrivals' src={photoViolette} alt=''/>
-<img className='imgNewArrivals' src={PhotoBleu} alt=''/>
+    <img className='imgNewArrivalsUn' src={PhotoGris} alt=''/>
+   <img className='imgNewArrivalsDeux' src={photoViolette} alt=''/>
+   <img className='imgNewArrivalsTrois' src={PhotoBleu} alt=''/>
 </div>
+{/* Cette div va alligner les autre div "alignementTextNewArrivals" Correctement sous les image  */}
+  <div className='alignementDesDiv'>
+{/* cette div la permet l'alignement des élément sous les image  */}
+     <div className='alignementTextNewArrivalsUn'>
+          <p className='hoddies'>Hoodies & Sweatshirt</p>
+          <p className='ExploreNow'>Explore Now!</p>
+          <a href="#">
+          <img className='fleche' src={fleche} alt=''/></a>
 
+     </div>
+
+     <div className='alignementTextNewArrivalsDeux'>
+       <p className='hoddies'>Coats & Parkas</p>
+       <p className='ExploreNow'>Explore Now!</p>
+       <a href="#">
+       <img className='fleche' src={fleche} alt=''/></a>
+
+      </div>
+      {/* la div qui contient tous le contenue endessous de l'image Trois  */}
+      <div className='alignementTextNewArrivalsTrois'>
+        {/* le text endessous de l'image */}
+       <p className='hoddies'>Tees & T-Shirt</p>
+       <p className='ExploreNow'>Explore Now!</p>
+       {/* Lien préfait */}
+       <a href="#">
+        {/* Image de la fleche  */}
+       <img className='fleche' src={fleche} alt=''/></a>
+
+      </div>
+  </div>
 
 </div>
     )
