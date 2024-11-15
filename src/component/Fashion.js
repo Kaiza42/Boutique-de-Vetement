@@ -36,7 +36,8 @@ function FashionVictim(){
         <h1 className="titreFashion"> fashion</h1>
        
       {/* Sa c'est a liste du haut de la page  */}
-          <ol>Catalogue</ol>
+      <a href="">
+          <ol>Catalogue</ol></a>
           <ol>Fashion</ol>  
           <ol>Favourite</ol>
           <ol>LifeStyle</ol>
@@ -55,13 +56,13 @@ function FashionVictim(){
           <ol className='colorUnique'>Unique</ol>
           <ol>Clothes.</ol>
         </ul>
-        {/* la balise P aurais pu etre dans la liste mais je souhaite le diférencier des autre  */}
+        {/* la balise P aurais pu etre dans "ul" mais je souhaite le diférencier des autre  */}
         <p className='innovationFashion'>Live for influential and innovative fashion!</p>
 
         <button className='shopNow'>SHOP NOW</button>
 
 </div>
-{/* Les image de marque la div permet la couleur et lalignement */}
+{/* Les image de marque, la div permet la couleur et lalignement */}
        <div className='listMarque'>
           <img className='marque' src={HM} alt=''/>
           <img className='marque' src={Obey} alt=''/>
@@ -81,8 +82,6 @@ function FashionVictim(){
 <img className='imgNewArrivals' src={photoViolette} alt=''/>
 <img className='imgNewArrivals' src={PhotoBleu} alt=''/>
 </div>
-
-
 
 
 </div>
