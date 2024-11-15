@@ -1,18 +1,29 @@
+@media (max-width: 768px) {
+    body, p, div, h1, h2, h3 {
+      font-size: 14px;
+      padding: 15px;
+    }
+  }
 .Fashion{
     margin-right: 30%;
     margin-left: 15%;
     margin-top: 3%;
     background-color: white;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    padding-bottom: 38%;
-    height: 350px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    padding-bottom: 1%;
+    
 }
 a {
     text-decoration: none;
     color: inherit;
+}
+
+p{
+    margin: 0%;
+    padding: 0%;
 }
 
 .listeTete{
@@ -25,25 +36,25 @@ a {
 }
 
 .tete{
-    padding-top: 10px;
+    padding-top: 2%;
     display: flex;
     vertical-align: baseline;
 }
 
 .titreFashion {
-    padding-left: 50px;
+    padding-left: 5%;
     font-weight: 900;
-    padding-left: 5px;
-    padding-right: 280px;
+    padding-left: 1%;
+    padding-right: 10em;
 }
 
 .signUp{
-    margin-left: 30px;
+    margin-left: 40%;
     background-color: black;
     color: white;
-    padding: 10px;
-    width: 80px ;
-    border-radius: 5px;
+    padding: 10%;
+    width: 180% ;
+    border-radius: 2em;
 }
 
 .corpsFashion{
@@ -51,55 +62,51 @@ background-color: #F4F6F5;
 margin-top: 5%;
 margin-right: 6%;
 margin-left: 5%;
-border-radius: 10px;
-height: 320px;
+border-radius: 2em;
+height: 20em;
 }
 
 
 .listUnique{
-    font-size: 35px;
+    font-size: 200%;
     font-weight: bold;
-    width: 50px;
-    
 }
 .colorUnique{
 background-color: orange;
-width: 160px;
+width: 4em;
 transform: rotate(-10deg);
 }
 
 .colorLet{
     background-color: white;
-    width: 160px;
+    width: 4em;
     transform: rotate(10deg);
 }
 
 .imageDeMort{
-   width: 20px;
-   height: 20px;
+   width: 2em;
+   
 }
 
 .shopNow{
-    margin-left: 50px;
+    margin-left: 4em;
     background-color: black;
     color: white;
-    padding: 10px;
-    width: 100px ;
-    border-radius: 5px;
+    padding: 0.5em;
+    width: 8em ;
+    border-radius: 1em;
 }
 
 .innovationFashion{
     font-size: 15px;
-    margin-left: 50px;
+    margin-left: 3.5em;
 }
 
 .imgFashion{
     display: flex;
 position: absolute;
-margin-left: 270px;
-margin-top: px;
-object-position: 50px, 50px;
-width: 500px;
+margin-left: 20em;
+width: 33em;
 transform: rotate(180deg);
 
 }
@@ -108,85 +115,53 @@ transform: rotate(180deg);
     background-color:  #EBD96B;
    display: flex;
    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .marque{
-    width: 40px;
-    height: 40px;
-    padding-top: 15px;
-    padding-left: 70px ;
-    padding-bottom: 15px;
-    margin-right: 40px;
+    width: 4em;
+    height: 2em;
+    padding-top: 2em;
+    padding-left: 4em ;
+    padding-bottom: 2em;
+    margin-right: 2em;
 }
 
 .titreNewArrivals{
-    font-size: 25px;
+    font-size: 2em;
     font-weight: bolder;
-    margin-left: 80px;
-}
-.imgNewArrivalsUn{
-    width: 200px;
-    height: 350px;
-    padding-top: 20px;
-    border-radius: 10%;
-    margin-left: 60px;
+    margin-left: 1.5em;
+    padding-bottom: 1.5em;
 }
 
-
-.imgNewArrivalsDeux{
-    width: 200px;
-    height: 350px;
-    padding-top: 20px;
-    padding-left: 0px;
-    border-radius: 10%;
-    margin-left: 140px;
-}
-.imgNewArrivalsTrois{
-    width: 200px;
-    height: 350px;
-    padding-top: 20px;
-    padding-left: 0px;
-    border-radius: 10%;
-    margin-left: 140px;
-}
 
 .alignementDesDiv{
     display: flex; 
-  justify-content: space-between; 
+  
 }
 
 .alignementTextNewArrivalsUn{
     display: flex; 
     flex-direction: column; 
-    
-    width: 200px;
-    margin-left: 70px;
-}
-p{
-    margin: 0%;
-    padding: 0%;
+    padding-left: 4em;
 }
 
+
 .fleche{
-    width: 20px; 
+    width: 2em; 
     height: auto; 
-    margin-left: 160px;
+    margin-left: 14em;
 }
 .alignementTextNewArrivalsDeux{
     display: flex; 
     flex-direction: column; 
-    
-    width: 200px;
-    margin-right: 10px;
+    padding-left: 4em;
 }
 .alignementTextNewArrivalsTrois{
     display: flex; 
-    flex-direction: column; 
-    
-    width: 200px;
-    margin-right: 90px;
+    flex-direction: column;
+    padding-left: 4em;
 }
 
 .hoddies{
@@ -196,3 +171,9 @@ font-weight: bold;
 .ExploreNow{
 color: gray;
 }
+
+.imgNewArrivals{
+    height: 22em;
+    width: 16em;
+}
+

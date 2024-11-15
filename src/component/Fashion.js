@@ -89,17 +89,12 @@ function FashionVictim(){
 <p className='titreNewArrivals'> New arrivals</p>
 
 {/* div pour placement des image  */}
-<div>
-  {/* Les image pour les "New Arrivals" */}
-  
-    <img className='imgNewArrivalsUn' src={PhotoGris} alt=''/>
-   <img className='imgNewArrivalsDeux' src={photoViolette} alt=''/>
-   <img className='imgNewArrivalsTrois' src={PhotoBleu} alt=''/>
-</div>
+
 {/* Cette div va alligner les autre div "alignementTextNewArrivals" Correctement sous les image  */}
   <div className='alignementDesDiv'>
 {/* cette div la permet l'alignement des élément sous les image  */}
      <div className='alignementTextNewArrivalsUn'>
+      <img className='imgNewArrivals' src={PhotoGris} alt=''/>
           <p className='hoddies'>Hoodies & Sweatshirt</p>
           <p className='ExploreNow'>Explore Now!</p>
           <a href="#">
@@ -107,7 +102,8 @@ function FashionVictim(){
 
      </div>
 
-     <div className='alignementTextNewArrivalsDeux'>
+     <div className='alignementTextNewArrivalsDeux'> 
+     <img className='imgNewArrivals' src={photoViolette} alt=''/>
        <p className='hoddies'>Coats & Parkas</p>
        <p className='ExploreNow'>Explore Now!</p>
        <a href="#">
@@ -116,6 +112,7 @@ function FashionVictim(){
       </div>
       {/* la div qui contient tous le contenue endessous de l'image Trois  */}
       <div className='alignementTextNewArrivalsTrois'>
+      <img className='imgNewArrivals' src={PhotoBleu} alt=''/>
         {/* le text endessous de l'image */}
        <p className='hoddies'>Tees & T-Shirt</p>
        <p className='ExploreNow'>Explore Now!</p>
