@@ -89,6 +89,7 @@ function FashionVictim(){
 {/* div pour placement des image  */}
 <div>
   {/* Les image pour les "New Arrivals" */}
+  
 <img className='imgNewArrivals' src={PhotoGris} alt=''/>
 <img className='imgNewArrivals' src={photoViolette} alt=''/>
 <img className='imgNewArrivals' src={PhotoBleu} alt=''/>
