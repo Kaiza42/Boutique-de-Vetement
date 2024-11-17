@@ -132,13 +132,13 @@ margin-left: 25em;
 /* la description de l'image  */
 .descriptionTelephone{
     font-size: 0.6em;
-    margin-left: 3em;
+    margin-left: 2.2em;
 }
 /* le prix de ce qui est afficher sur l'image  */
 .prixTelephone{
     color: gray;
     font-size: 0.6em;
-    margin-left: 3em
+    margin-left: 2.2em
 }
 
 /* Gere juste le placement de la toobar */

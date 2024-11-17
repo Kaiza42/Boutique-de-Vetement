@@ -5,12 +5,13 @@ import profil from './asset/profil.png'
 // icone loupe 
 import loupe from './asset/Loupe.png'
 
+// image telephone 
 import orange from './asset/FilleOrange.jpg'
 import rose from './asset/FilleRose.jpg'
 import bleu from './asset/FilleBleu.jpg'
 import violette from './asset/FilleViolette.jpg'
 
-
+// icone toolBar 
 import maison from './asset/iconeMaison.png'
 import barre from './asset/Iconne4barre.png'
 import Shop from './asset/iconeShop.png'
@@ -25,6 +26,7 @@ import apple from './asset/apple.png'
 // icone google
 import GooglePlay from './asset/GooglePlay.png'
 
+// lien css 
 import './telecharger.css';
 
 
@@ -100,6 +102,8 @@ function Telecharger (){
 
 
    </div>
+
+  
 
 </div>
 
