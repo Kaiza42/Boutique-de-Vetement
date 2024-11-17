@@ -17,6 +17,7 @@ padding-bottom: 2%;
     transform: rotate(180deg);
     width: 40em;
     height: 40em;
+    border-radius: 5%;
 }
 /* permet de les aligné horizontalement  */
 .encadrementYoung{
