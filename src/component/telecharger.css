@@ -1,0 +1,155 @@
+/* placement des div */
+.telechargerSéparation{
+    display: flex;
+    padding-top: 5em;
+    padding-bottom: 3em;
+}
+/*le forma du telephone */
+.telephone{
+    margin-left: 25%;
+    border:  solid 1.4em gray;
+    width: 15em;
+    height: 36em;
+    border-radius: 2vw;
+}
+
+ /*Placement texte*/
+.telechargerText{
+    margin-top: 5em;
+margin-left: 25em;
+}
+/* gere le texte en gras  */
+.vaucherTelecharger{
+    font-weight: bold;
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+/* gere le text  */
+.middleTexte{
+    color: gray;
+    padding-bottom: 1em;
+}
+/* gere les button apple et google play  */
+.buttonTelecharger{
+    margin-right: 1.5em;
+    padding: 1em;
+    background-color: black;
+    color: white;
+    border-radius: 2vw;
+}
+
+/* Gere la taille des deux icone google Play et apple  */
+.imgTelecharger{
+    width: 1.5em;
+    
+}
+/* l'icone carrer dans le telephone  */
+.iconneCarrer{
+    margin-left: 2em;
+    margin-top: 2.5em;
+}
+/* l'icone de profil dans le telephone  */
+.iconneProfil {
+    width: 1.2em;
+    margin-left:9.5em ;
+    margin-top: 0.4em;
+    /* il n'en réchaperas pas a cette rotate  */
+    transform: rotate(180deg);
+}
+/* titre dans le telephone  */
+.titreTeelephone {
+    padding-top: 1em;
+    padding-left: 1.6em;
+    font-size: 1em;
+    padding-bottom: 1em;
+}
+
+/* sert a gerer l'input  */
+.inputTelephone{
+    background-color: #DDDDDD66;
+    text-decoration: none;
+    width: 14em;
+    border: none;
+    margin-left: 1.9em;
+    text-align: center;
+    position: relative;
+    border-radius: 3vw;
+}
+/* Permet l'alignement  */
+.superPosition{
+    display: flex;
+    margin-bottom: 0.5em;
+}
+/* placement et taille de la loupe  */
+.loupeInput{
+    position: absolute;
+    margin-left: 1.9em;
+    width: 0.7vw;
+    margin-top: 0.2em;
+    
+}
+/* le button trending  */
+.buttonTrending{
+    background-color: #EBD96B;
+    border: transparent;
+    margin-left: 3em;
+    font-size: 0.5vw;
+    padding: 1em;
+    border-radius: 1vw;
+    font-weight: 600;
+    margin-right: 1em;
+}
+/* gere le button New et All  */
+.buttonAllNew{
+    padding: 0.4em;
+    width: 4em;
+    border-radius: 1em;
+    border: transparent;
+    margin-right: 1em;
+    color: gray;
+    font-size: 0.7em;
+}
+/* image du haut  */
+.imageDuHaut{
+    display: flex;
+    margin-bottom: 1em;
+    margin-top: 1.5em;
+    
+}
+/* les image du bas  */
+.imageDuBas{
+    display: flex;
+}
+/* image sur le telephone  */
+.imageTelephone{
+    width: 6em;
+    height: 8em;
+    margin-left: 1em;
+    border-radius: 1vw;
+    transform: rotate(180deg);
+}
+
+/* la description de l'image  */
+.descriptionTelephone{
+    font-size: 0.6em;
+    margin-left: 3em;
+}
+/* le prix de ce qui est afficher sur l'image  */
+.prixTelephone{
+    color: gray;
+    font-size: 0.6em;
+    margin-left: 3em
+}
+
+/* Gere juste le placement de la toobar */
+.toolbarTelephone{
+    margin-top: 3em;
+    
+}
+/* gere lespace entre icone  */
+.iconeToolbar{
+    margin-left: 1.7em;
+    transform: rotate(180deg);
+}
+
+
