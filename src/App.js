@@ -6,6 +6,8 @@ import Favorite  from './component/Favorie';
 // l'import de Young
 import Young from './component/Young';
 
+import Footer from './component/Footer';
+
 // import de Telecharger 
 import Telecharger from './component/Telecharger';
 
@@ -27,6 +29,7 @@ function App() {
   <Young />
   <Telecharger />
   <Community />
+  <Footer />
 
 
   </div>

@@ -21,6 +21,7 @@
 }
 /* l'input de community */
 .inputComunity{
+    margin-top: 2em;
     display: flex;
     position: absolute;
     border: transparent;
@@ -32,6 +33,7 @@
 }
 /* et le button de commutiny  */
 .buttonSend{
+    margin-top: 2em;
     position: relative;
     margin-left: 86.7em;
     background-color: black;

@@ -1,0 +1,62 @@
+
+/* couleur des lettre et du back ground  */
+.footer{
+    color: white;
+    background-color: black;
+    height: 30em;
+    display: flex;
+}
+
+/* contient la colonne gauche  */
+.colonneGauche{
+    margin-left: 15em;
+    padding-top: 7em;
+}
+
+/* le titre footer */
+.titreFooter{
+    font-weight: 900;
+    padding-bottom: 1em;
+}
+/* le texte sous le titre  */
+.texteSousTitre{
+padding-bottom: 1em;
+}
+
+/* c'est les button */
+.buttonFooter{
+    border: transparent;
+    width: 3em;
+    height: 3em;
+    margin-right: 0.5em;
+    background-color: #EBD96B;
+    border-radius: 0.4vw;
+}
+
+/* les logo  */
+.logoFooter{
+   width: 3em;
+}
+.contactFooter{
+margin-left: 20em;
+padding-top: 7em;
+}
+
+.faqFooter{
+    margin-left: 20em;
+    padding-top: 7em;
+}
+
+.regleFooter{
+    margin-left: 20em;
+    padding-top: 7em;
+    
+}
+
+.sizeOl{
+    font-size: 1.5em;
+    
+}
+
+
+
