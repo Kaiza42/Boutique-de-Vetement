@@ -1,0 +1,62 @@
+
+ /* sert juste a aligner de droite a gauche le contenue et la couleur */
+.encadrementFavorie{
+    margin-bottom: 4%;
+    margin-top: 7%;
+    display: flex;
+    /* il y a eux un abandon de trouver la COULEUR juste */
+    background-color: #E5C643;
+    
+}
+/* dimension image favorite */
+.imgfavorite{
+    width: 58em;
+    transform: rotate(180deg);
+}
+/* sert a centrer le contenue  */
+.partieDroiteFavorie{
+align-content: center;
+margin-left: 15%;
+}
+/* contient Payday, saleNow gere la taille et l'espacement du bas */
+.listAcheterNow{
+font-size: 5em;
+font-weight: 900;
+padding-bottom: 0.4em;
+}
+/* gere Payday surtout le background*/
+.payDayList{
+    background-color: aliceblue;
+    width: 4.3em;
+    height: 1.2em;
+    transform: rotate(-12deg);
+    
+}
+
+/* gere la taille du texte et l'epaisseur de la lettre et l'espacement du bas */
+.textMillieuFavorie{
+font-weight: 500;
+font-size:1.5em ;
+padding-bottom: 1em;
+}
+
+/* gere la date taile de la lettre et epaisseur de la lettre   */
+.datePromoFavorie{
+font-weight: bold;
+font-size:1.5em ;
+}
+
+/* les condition gere uniquement la taille de la lettre */
+.conditionFavorie{
+    font-size:1.5em ;
+}
+/* gere tout le bouton sale now  */
+.shopNowFavorie{
+    margin-top: 5%;
+    background-color: black;
+    color: white;
+    padding: 2%;
+    width: 20% ;
+    border-radius: 1em
+}
+

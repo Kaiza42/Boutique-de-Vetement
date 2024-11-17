@@ -1,53 +1,54 @@
+
+/* un test je sais pas trop si sa fonctionne  */ 
 @media (max-width: 768px) {
     body, p, div, h1, h2, h3 {
       font-size: 14px;
       padding: 15px;
     }
   }
-.Fashion{
-    margin-right: 30%;
-    margin-left: 15%;
-    margin-top: 3%;
-    background-color: white;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
-    border-bottom-right-radius: 0%;
-    border-bottom-left-radius: 0%;
-    padding-bottom: 1%;
-    
-}
-a {
+/* j'enleve tout margin et padding une preference personnel*/
+  *{
+    padding: 0%;
+    margin: 0%;
+  }
+
+/* enlever l'effet lien car je trouve sa moche */
+a{
     text-decoration: none;
     color: inherit;
 }
-
-p{
-    margin: 0%;
-    padding: 0%;
-}
-
-.listeTete{
-    margin-left: 0%;
-    display: flex;
-    vertical-align: baseline;
-    align-items: center;
-    list-style-position: inside;
+/* la div qui contient tout  */
+.Fashion{
+    padding-top: 1em;
     
 }
-
-.tete{
-    padding-top: 2%;
+/* Sa c'est les ol */
+.headerList{
+    padding-left: 3vw;
+}
+/* sa c'est ul */
+.listeTete{
+    
     display: flex;
     vertical-align: baseline;
+    list-style-position: inside;
+    padding-left: 3%;
+    
 }
-
+/* Pour le titre */
 .titreFashion {
     padding-left: 5%;
     font-weight: 900;
     padding-left: 1%;
-    padding-right: 10em;
+    padding-right: 32em;
 }
-
+/* l'icone a coter du titre */
+.iconeTitre{
+   width: 1.5em;
+   height: 1.5em;
+   padding-top: 0.7em;
+}
+/* le button sign up */
 .signUp{
     margin-left: 40%;
     background-color: black;
@@ -56,82 +57,81 @@ p{
     width: 180% ;
     border-radius: 2em;
 }
-
+/* div qui contient le carrer gris */
 .corpsFashion{
 background-color: #F4F6F5;
 margin-top: 5%;
-margin-right: 6%;
-margin-left: 5%;
+margin-right: 14%;
+margin-left: 14%;
 border-radius: 2em;
-height: 20em;
+height: 22em;
 }
 
-
+/* ul qui contient le 'let's explore unique clothes */
 .listUnique{
     font-size: 200%;
     font-weight: bold;
+    padding-left: 3em;
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
+/* Sa contient "Unique" avec le bakcground orange */
 .colorUnique{
 background-color: orange;
 width: 4em;
 transform: rotate(-10deg);
 }
-
+/* Sa contient "let's" avec le background blanc */
 .colorLet{
     background-color: white;
     width: 4em;
     transform: rotate(10deg);
 }
-
-.imageDeMort{
-   width: 2em;
-   
+/* le texte audessus de ShopNow */
+.innovationFashion{
+    font-size: 1.5em;
+    margin-left: 4.1em;
 }
-
+/* le button shop now */
 .shopNow{
-    margin-left: 4em;
+    margin-top: 1.5em;
+    margin-left: 7em;
     background-color: black;
     color: white;
     padding: 0.5em;
     width: 8em ;
     border-radius: 1em;
 }
-
-.innovationFashion{
-    font-size: 15px;
-    margin-left: 3.5em;
-}
-
+ /* l'img a gauche de la list,button text */
 .imgFashion{
     display: flex;
 position: absolute;
-margin-left: 20em;
-width: 33em;
+margin-left: 35em;
+width: 40em;
 transform: rotate(180deg);
-
 }
-
+/* sa gere le trait orange qui contient les marque */
 .listMarque{
     background-color:  #EBD96B;
    display: flex;
    justify-content: center;
-    margin-top: 1em;
+    margin-top: 2em;
     margin-bottom: 1em;
 }
-
+/* sa gere les logo des marque  */
 .marque{
     width: 4em;
     height: 2em;
     padding-top: 2em;
     padding-left: 4em ;
     padding-bottom: 2em;
-    margin-right: 2em;
+    margin-right: 10em;
 }
-
+/* Titre endessous de la barrre a logo  orange */
 .titreNewArrivals{
     font-size: 2em;
     font-weight: bolder;
-    margin-left: 1.5em;
+    margin-left: 4.8em;
     padding-bottom: 1.5em;
 }
 
@@ -140,40 +140,45 @@ transform: rotate(180deg);
     display: flex; 
   
 }
-
+/* sa gere le cadre a gauche  */
 .alignementTextNewArrivalsUn{
     display: flex; 
     flex-direction: column; 
-    padding-left: 4em;
+    padding-left: 10em;
+    padding-right: 10em;
 }
-
-
-.fleche{
-    width: 2em; 
-    height: auto; 
-    margin-left: 14em;
-}
+/* sa gere le cadre du millieu */
 .alignementTextNewArrivalsDeux{
     display: flex; 
     flex-direction: column; 
     padding-left: 4em;
+    padding-right: 10em;
 }
+/* sa gere le cadre a droite */
 .alignementTextNewArrivalsTrois{
     display: flex; 
     flex-direction: column;
     padding-left: 4em;
+    padding-right: 10em;
+}
+/*La fleche endessous du texte */
+.fleche{
+    width: 2em; 
+    height: auto; 
+    margin-left: 21em;
 }
 
+/*le text en gras endessous de toute les image  */
 .hoddies{
 font-weight: bold;
 }
-
+/* le texte gris endessous des image */
 .ExploreNow{
 color: gray;
 }
-
+/* sa gere la taille des image  */
 .imgNewArrivals{
-    height: 22em;
-    width: 16em;
+    height: 30em;
+    width: 23em;
 }
 

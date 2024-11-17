@@ -34,19 +34,19 @@ function FashionVictim(){
         
          <ul className ="listeTete">
           {/* Mettre une img et un h1 dans une UL sa me derange un peu en sois mais sa me facilite le placement  */}
-        <img className='imageDeMort' src={iconeACoterDeTitre} alt=''/>
+        <img className='iconeTitre' src={iconeACoterDeTitre} alt=''/>
         <h1 className="titreFashion"> fashion</h1>
        
       {/* Sa c'est a liste du haut de la page  */}
       {/* les lien sont a atribué en fonction de si on reussi a faire les page ou non  */}
       <a href="#">
-          <ol>Catalogue</ol></a>
+          <ol className='headerList'>Catalogue</ol></a>
           <a href="#">
-          <ol>Fashion</ol> </a> 
+          <ol className='headerList'>Fashion</ol> </a> 
           <a href="#">
-          <ol>Favourite</ol></a>
+          <ol className='headerList'>Favourite</ol></a>
           <a href="#">
-          <ol>LifeStyle</ol></a>
+          <ol className='headerList'>LifeStyle</ol></a>
           {/* A la base c'etait un ol Mais je voyais plus sa comme un button du coup je l'ai mis en button  */}
           <a href="#">
           <button className="signUp">Sign-Up</button></a>
@@ -99,7 +99,6 @@ function FashionVictim(){
           <p className='ExploreNow'>Explore Now!</p>
           <a href="#">
           <img className='fleche' src={fleche} alt=''/></a>
-
      </div>
 
      <div className='alignementTextNewArrivalsDeux'> 
