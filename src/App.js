@@ -1,9 +1,13 @@
 
-// L'export de fashion victim 
+// L'import de fashion victim 
 import FashionVictim  from './component/Fashion';
+// l'import de favorie
 import Favorite  from './component/Favorie';
-// Le css 
+// l'import de footer
+import Young from './component/Young';
+// Le css de app
 import './App.css';
+
 
 
 
@@ -13,6 +17,7 @@ function App() {
    
   <FashionVictim />
   <Favorite />
+  <Young />
   </div>
  
 

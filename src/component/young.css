@@ -1,0 +1,47 @@
+
+/* jpeut pas etre plus claire*/
+.bodyYoung {
+padding-top: 2%;
+padding-bottom: 5%;
+}
+
+ /*gere le titre young*/
+.titreYoung{
+margin-left: 4em;
+padding-bottom: 2%;
+
+}
+
+/*gere la taille d'image du composant Young*/
+.imageYoung{
+    transform: rotate(180deg);
+    width: 40em;
+    height: 40em;
+}
+/* permet de les aligné horizontalement  */
+.encadrementYoung{
+    display: flex;
+    padding-left: 8em;
+}
+
+/* gere uniquement l'écart des deux block  */
+.youngDroite{
+   padding-right: 18em;
+}
+
+/* gere le texte sous les image uniquement la premiere ligne  */
+.textDessousImageYoung{
+    font-weight: 600;
+    font-size: 1.4em;
+}
+ 
+/* gere uniquement la coueleur de la seconde ligne de texte  */
+.textAdessusFleche{
+    color: gray;
+}
+ /* gere les deux fleche  */
+.flecheYoung{
+    width: 2em;
+    margin-left: 38em;
+}
+
