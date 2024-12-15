@@ -1,4 +1,4 @@
-# Premier projet de react uniquement du html css 
+# Premier projet en react uniquement du html css 
 
 ## Cela consister a reproduire une boutique de vetement 
 
